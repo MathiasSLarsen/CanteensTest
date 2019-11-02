@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2737C645236C7C4200AFE8FA /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2737C644236C7C4200AFE8FA /* TableViewController.swift */; };
+		2737C647236C7D6200AFE8FA /* Dish.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2737C646236C7D6200AFE8FA /* Dish.swift */; };
+		2737C649236C80E800AFE8FA /* DishTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2737C648236C80E800AFE8FA /* DishTableViewCell.swift */; };
+		2737C64B236D6D6F00AFE8FA /* Vitamin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2737C64A236D6D6F00AFE8FA /* Vitamin.swift */; };
+		2737C64D236D6E5C00AFE8FA /* VitaminTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2737C64C236D6E5C00AFE8FA /* VitaminTableViewCell.swift */; };
+		2737C64F236D6FAF00AFE8FA /* VitaminTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2737C64E236D6FAF00AFE8FA /* VitaminTableViewController.swift */; };
 		27E58709236C48F000875E14 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E58708236C48F000875E14 /* AppDelegate.swift */; };
 		27E5870B236C48F000875E14 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E5870A236C48F000875E14 /* SceneDelegate.swift */; };
 		27E5870D236C48F000875E14 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E5870C236C48F000875E14 /* ViewController.swift */; };
@@ -16,6 +22,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2737C644236C7C4200AFE8FA /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		2737C646236C7D6200AFE8FA /* Dish.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dish.swift; sourceTree = "<group>"; };
+		2737C648236C80E800AFE8FA /* DishTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishTableViewCell.swift; sourceTree = "<group>"; };
+		2737C64A236D6D6F00AFE8FA /* Vitamin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vitamin.swift; sourceTree = "<group>"; };
+		2737C64C236D6E5C00AFE8FA /* VitaminTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VitaminTableViewCell.swift; sourceTree = "<group>"; };
+		2737C64E236D6FAF00AFE8FA /* VitaminTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VitaminTableViewController.swift; sourceTree = "<group>"; };
 		27E58705236C48F000875E14 /* CanteensTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CanteensTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27E58708236C48F000875E14 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		27E5870A236C48F000875E14 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +75,12 @@
 				27E58711236C48F300875E14 /* Assets.xcassets */,
 				27E58713236C48F300875E14 /* LaunchScreen.storyboard */,
 				27E58716236C48F300875E14 /* Info.plist */,
+				2737C644236C7C4200AFE8FA /* TableViewController.swift */,
+				2737C646236C7D6200AFE8FA /* Dish.swift */,
+				2737C648236C80E800AFE8FA /* DishTableViewCell.swift */,
+				2737C64A236D6D6F00AFE8FA /* Vitamin.swift */,
+				2737C64C236D6E5C00AFE8FA /* VitaminTableViewCell.swift */,
+				2737C64E236D6FAF00AFE8FA /* VitaminTableViewController.swift */,
 			);
 			path = CanteensTest;
 			sourceTree = "<group>";
@@ -138,9 +156,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2737C64F236D6FAF00AFE8FA /* VitaminTableViewController.swift in Sources */,
+				2737C64D236D6E5C00AFE8FA /* VitaminTableViewCell.swift in Sources */,
 				27E5870D236C48F000875E14 /* ViewController.swift in Sources */,
+				2737C647236C7D6200AFE8FA /* Dish.swift in Sources */,
 				27E58709236C48F000875E14 /* AppDelegate.swift in Sources */,
+				2737C64B236D6D6F00AFE8FA /* Vitamin.swift in Sources */,
+				2737C649236C80E800AFE8FA /* DishTableViewCell.swift in Sources */,
 				27E5870B236C48F000875E14 /* SceneDelegate.swift in Sources */,
+				2737C645236C7C4200AFE8FA /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
